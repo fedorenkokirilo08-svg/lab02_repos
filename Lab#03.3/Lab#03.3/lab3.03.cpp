@@ -18,22 +18,22 @@ if (x<=-5)
 	y = -3;
 }
 else
-if (-5 < x && x <= -5)
+if (-5 < x && x <= -R)
 {
 	y = (3 / 5) * x;
 }
 else 
-if (0 < x && x <= 4)
+if (-R < x && x <= R)
 {
-	y = 4 - sqrt(16 - (x * x));
+	y = R - sqrt((R*R) - (x * x));
 }
 else 
-if (4 < x && x <= 8)
+if (R < x && x <= 8)
 {
-	y = x - 4;
+	y = (R-0/8-R)*(x-R);
 }
 else {
-	y = 4;
+	y = R;
 
 }
 cout << endl;
